@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest" Name="AddIn" ProductID="{bed448c0-0f95-4c72-928c-8913fb166ead}" Version="1.0.0.0" SharePointMinVersion="16.0.0.0">
+  <Properties>
+    <Title>AddIn</Title>
+    <StartPage>https://localhost:44325/?{StandardTokens}</StartPage>
+  </Properties>
+  <AppPrincipal>
+    <AutoDeployedWebApplication>
+      <DebugInfo ClientSecret="D7eph2WPbTbts8mNj9lPJrI2ETbKPtL/XUwJNzeckog=" AppUrl="https://localhost:44325/" />
+    </AutoDeployedWebApplication>
+  </AppPrincipal>
+</App>
